@@ -32,3 +32,28 @@ if (str1 == str2) {
 }
 
 console.log("Tulemus on: " + tulemus)
+
+/*
+Mei on linnade nimekiri aga ilma sõnata "linn". Need palun lisada.
+*/
+
+
+var linnad = ["Tallinn", "Tartu", "Valga"]
+var uuedLinnad = []
+
+while (linnad.length > 0) {
+	var linn = linnad.pop()
+	var uusLinn = linn + " linn"
+	uuedLinnad.push(uusLinn)
+}
+
+console.log(uuedLinnad)
+
+
+
+
+
+
+
+
+

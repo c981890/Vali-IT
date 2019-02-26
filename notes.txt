@@ -15,4 +15,20 @@ git commit -m "pealkiri"
 git push
 
 
-JavaScript framework - https://reactjs.org/
+JavaScript framework - https://reactjs.org/ 
+
+
+JavaScript
+
+4 == "4"
+> true
+
+4 === "4"
+> false
+
+!!0
+> false (0 on alati false)
+
+!!null
+> false
+
