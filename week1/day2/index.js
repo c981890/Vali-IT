@@ -81,6 +81,46 @@ console.log(poisteNimed)
 // ctrl + enter tekitad uue rea
 // console.log("muutuja", muutuja) prindib
 
+/* Funktsioonid */
+
+/*
+    Kirjuta algoritm, mis suudab ükskõik mis naise/mehe
+    nime eristada.
+*/
+
+var eristaja = function(nimi) {
+	if (nimi.endsWith('a')) {
+		return "tüdruk"
+	} else {
+		return "poiss"
+	}
+}
+
+var praeguneNimi = "Peeter"
+var kumb = eristaja (praeguneNimi)
+console.log(kumb)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
