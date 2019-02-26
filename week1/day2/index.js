@@ -16,3 +16,19 @@ if (sisend < 7) {
 
 console.log("Tulemus on: " + tulemus)
 
+/*
+Kui sõned on võrdsed, siis prindi üks,
+kui erinevad, siis liida kokku ja prindi.
+*/
+
+var str1 = "banaan"
+var str2 = "apelsin"
+var tulemus
+
+if (str1 == str2) {
+	tulemus = 1
+} else if (str1 != str2) {
+	tulemus = str1 + str2
+}
+
+console.log("Tulemus on: " + tulemus)
