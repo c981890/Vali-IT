@@ -1,0 +1,18 @@
+Õppejõud Krister Viirsaar
+Veebileht krister.ee 
+http://code.krister.ee/my-coding-environment/
+arvuti kasuatajanimi/parool opilane/Parool11
+
+Git käsud
+
+git init
+
+Staging
+git status
+git add filename/. siis kõik failid
+git commit -m "pealkiri"
+
+git push
+
+
+JavaScript framework - https://reactjs.org/
