@@ -101,6 +101,22 @@ var kumb = eristaja (praeguneNimi)
 console.log(kumb)
 
 
+/*
+Loo funktsioon, mis tagastab vastuse küsimusele, kas tegu on
+numbriga?
+!isNaN(4)
+*/
+
+var kasOnNumber = function(param) {
+	return !isNaN(param)
+}
+
+console.log(kasOnNumber(4))
+console.log(kasOnNumber("mingi sõne"))
+console.log(kasOnNumber(23536))
+console.log(kasOnNumber(6.876))
+console.log(kasOnNumber(null))
+console.log(kasOnNumber([1, 4, 5, 6]))
 
 
 
