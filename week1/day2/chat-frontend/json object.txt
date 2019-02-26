@@ -1,0 +1,14 @@
+{
+    "messages":
+    [
+        {
+            "message":"Teretulemast!",
+            "user":"admin",
+            "date":"2019-02-24 19:15"
+        }
+    ],
+    "room":"general"
+}
+
+
+API/Access Point Interface kasutajaliides/arvutile
