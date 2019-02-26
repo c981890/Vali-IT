@@ -34,7 +34,8 @@ if (str1 == str2) {
 console.log("Tulemus on: " + tulemus)
 
 /*
-Mei on linnade nimekiri aga ilma sõnata "linn". Need palun lisada.
+Meil on linnade nimekiri aga ilma sõnata "linn".
+Need palun lisada.
 */
 
 
@@ -49,6 +50,31 @@ while (linnad.length > 0) {
 
 console.log(uuedLinnad)
 
+/*
+Eralda poiste ja tüdrukute nimed.
+*/
+
+var nimed = ["Margarita", "Mara", "Martin", "Kalev"]
+var poisteNimed = []
+var tydrukuteNimed = []
+var lastChar = ''
+
+while (nimed.length > 0) {
+	// "a" lõpuga on tüdruku nimi
+	// kui on poisi nimi, siis lisa see poisteNimed listi
+	// kui on tüdruku nimi, siis lisa see tydrukuteNimed listi
+	var nimi = nimed.pop()
+	var lastChar = nimi.substr(nimi.length - 1)
+
+	if (lastChar == 'a') { // nimi.endsWith('a') saab ka kasutada
+		tydrukuteNimed.push(nimi)
+	} else {
+		poisteNimed.push(nimi)
+	}
+}
+
+console.log(tydrukuteNimed)
+console.log(poisteNimed)
 
 
 
