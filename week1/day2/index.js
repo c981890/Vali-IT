@@ -77,7 +77,9 @@ console.log(tydrukuteNimed)
 console.log(poisteNimed)
 
 
-
+// ctrl + klikk saab mitu kursorit
+// ctrl + enter tekitad uue rea
+// console.log("muutuja", muutuja) prindib
 
 
 
