@@ -2,27 +2,46 @@ console.log("Töötan")
 
 // 1. alla laadida API'st tekst
 
-var start = async function () {
-	console.log("Start läks käima")
+var refreshMessages = async function () {
+	console.log("refreshMessages läks käima")
 	var APIurl = "http://138.197.191.73:8080/chat/general"
 	var request = await fetch(APIurl)
 	console.log(request)
 	var json = await request.json()
 
 	// kuva serverist saadud info html-is (ehk lehel)
+	document.querySelector('#jutt').innerHTML = ""
 	var sonumid = json.messages
 	while (sonumid.length > 0) {
-		var sonum = sonumid.pop()
+		var sonum = sonumid.shift()
 
 		// lisa htmli #jutt sisse sonum.message
-		document.querySelector('#jutt').innerHTML += 
-		    sonum.user + ": " + sonum.message
-
+		document.querySelector('div[id = "jutt"]').innerHTML +=  // '#jutt' == 'div[id = jutt]'
+		    "<p>" + sonum.user + ": " + sonum.message + "<p>"
+		}
+        // window.scrollTo(0, document.body.scrollHeight);
 	}
 
+	// document.querySelector('#jutt').innerHTML = JSON.stringify(json)	
 
-	// document.querySelector('#jutt').innerHTML = JSON.stringify(json)
+setInterval(refreshMessages, 1000)
 
+document.querySelector('form').onsubmit = function(event) {
+	event.preventDefault()
+	var username = document.querySelector('#username').value
+	var message = document.querySelector('#message').value
+	document.querySelector('#message').value = "" // tee input tühjaks
+	console.log(username, message)
+    
+    var APIurl = "http://138.197.191.73:8080/chat/general/new-message"
+	fetch(APIurl, {
+		method: "POST",
+		body: JSON.stringify({user: username, message: message}),
+		headers: {
+			'Accept': 'application/json',
+			'Content-Type': 'application/json'
+		}
+	})
 }
 
-start()
+
