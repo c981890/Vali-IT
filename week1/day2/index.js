@@ -119,22 +119,39 @@ console.log(kasOnNumber(null))
 console.log(kasOnNumber([1, 4, 5, 6]))
 
 
+/*
+    Kirjuta funktsionn, mis võtab vastu kaks numbrit
+    ja tagastab nende summa.
+*/
+
+var summa = function(liidetav1, liidetav2) {
+	return liidetav1 + liidetav2
+}
+
+console.log(summa(4, 5))
+console.log(summa(6.555, 2))
+console.log(summa(23536, 0))
 
 
+/*
 
+*/
+console.log("---------------------")
 
+var inimesed = {
+	"kaarel": 34,
+	"Margarita": 10,
+	"Suksu": [5, 3, 9], 
+	"Krister": {
+		vanus: 30,
+		sugu: true
+	}
+}
 
-
-
-
-
-
-
-
-
-
-
-
+console.log(inimesed["kaarel"])
+console.log(inimesed.kaarel)
+console.log(inimesed.Krister.sugu)
+console.log(inimesed.Suksu[1])
 
 
 
