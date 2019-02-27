@@ -3,6 +3,9 @@ Veebileht krister.ee
 http://code.krister.ee/my-coding-environment/
 arvuti kasuatajanimi/parool opilane/Parool11
 
+Git
+http://i200.itcollege.ee/#Git
+
 Git käsud
 
 git init

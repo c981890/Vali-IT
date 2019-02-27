@@ -4,4 +4,9 @@ public class Koer extends Koduloom {
     public void lausu() {
         System.out.println("Auh, auh");
     }
+
+    @Override
+    public String getSaba() {
+        return  "Kohev";
+    }
 }
