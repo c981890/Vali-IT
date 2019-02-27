@@ -32,3 +32,6 @@ JavaScript
 !!null
 > false
 
+Java
+IntelliJ lühend
+psvm + Tab teeb public static void main (String[] args)
