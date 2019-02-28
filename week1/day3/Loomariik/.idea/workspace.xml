@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3993a274-8361-4097-8e0e-d5bba20842de" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../ArvRuutu/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ArvRuutu/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day4/AdvancedAndmetyybid/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../day4/AdvancedAndmetyybid/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day4/AdvancedAndmetyybid/out/production/AdvancedAndmetyybid/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../day4/AdvancedAndmetyybid/out/production/AdvancedAndmetyybid/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day4/AdvancedAndmetyybid/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../day4/AdvancedAndmetyybid/src/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -100,7 +101,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="85" />
     <option name="y" value="25" />
     <option name="width" value="1750" />
@@ -174,7 +175,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
