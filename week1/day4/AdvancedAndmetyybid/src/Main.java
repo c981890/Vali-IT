@@ -77,5 +77,26 @@ public class Main {
             System.out.println(massiiv100[i]);
         }
 
+        // Kasuta massiivi, kus on numbrite jada
+        // Loe mitu paarisarvu on
+        int paarisarvuNumber = 0;
+        for (int i = 0; i < massiiv100.length; i++) {
+            if (massiiv100[i] % 2 == 0) {
+                paarisarvuNumber++;
+            }
+        }
+        System.out.println("Paarisarve on massiiv100-s  " + paarisarvuNumber);
+
+        // Luua ArrayList ja sisesta sinna kolm numbrit ja kaks stringi
+
+        ArrayList nimekiri = new ArrayList();
+        nimekiri.add(1);
+        nimekiri.add(9);
+        nimekiri.add(54);
+        nimekiri.add("Tere");
+        nimekiri.add("Jõudu");
+        nimekiri.add("Head aega");
+        System.out.println(nimekiri);
+
     }
 }
