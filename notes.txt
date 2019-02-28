@@ -38,3 +38,19 @@ JavaScript
 Java
 IntelliJ lühend
 psvm + Tab teeb public static void main (String[] args)
+
+Masssiiv stringiks
+String massiivStr = Arrays.toString(massiiv);
+System.out.println(massiivStr);
+
+
+
+
+
+
+
+
+
+
+
+
