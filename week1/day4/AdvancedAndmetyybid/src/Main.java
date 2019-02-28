@@ -98,5 +98,31 @@ public class Main {
         nimekiri.add("Head aega");
         System.out.println(nimekiri);
 
+        System.out.println(nimekiri.get(2));
+
+        for (int i = 0; i < nimekiri.size(); i++) {
+            System.out.println(nimekiri.get(i));
+        }
+
+        // Loome uue ArrayList, kus on 543 numbrit.
+        // Numbrid peavad olema suvalised Math.random() vahemikus 0-10.
+        // Korruta iga number viiega.
+        // Salvesta see uus number samale positsioonile.
+        // double nr = Math.random() * 2
+
+        ArrayList nimekiri543 = new ArrayList();
+        for (int i = 0; i < 23; i++) {
+            int nr = (int) Math.floor(Math.random() * 11);
+            nimekiri543.add(nr);
+        }
+
+        for (int i = 0; i < nimekiri543.size(); i++) {
+            int nr = (int) nimekiri543.get(i) * 5;
+            nimekiri543.add(i, nr);
+        }
+        System.out.println(nimekiri543);
+
+
+
     }
 }
