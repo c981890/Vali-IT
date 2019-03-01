@@ -58,7 +58,11 @@ public class Main {
 
         System.out.println(suund);
 
-        
+        // FOREACH
+        int[] mingidNumbrid = new int[]{8, 4, 62, 12};
+        for (int member : mingidNumbrid) {
+            System.out.println(member);
+        }
 
 
     }
