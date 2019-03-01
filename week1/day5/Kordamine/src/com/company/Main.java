@@ -6,10 +6,17 @@ public class Main {
 	// write your code here
         System.out.println("Hello, World!");
 
-        if (true && false || (1 > 0) && true) {
+        if ((false && true) || true) {
             System.out.println("Tõene");
         } else {
             System.out.println("Väär");
         }
+
+        Reede.koju();
+
+        Pyhapaev paev = new Pyhapaev();
+        paev.maga();
+
+
     }
 }
