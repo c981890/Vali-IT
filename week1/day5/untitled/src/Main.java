@@ -47,12 +47,18 @@ public class Main {
         vajalikeAsjadeKogus.put("kohvipakid", 10.0);
         vajalikeAsjadeKogus.put("piim", 5.0);
 
+        // switch
+        int rongiNr = 50;
+        String suund = null;
+        switch (rongiNr) {
+            case 50: suund = "Pärnu";  break;
+            case 55: suund = "Haapsalu"; break;
+            case 10: suund = "Vormsi"; break;
+        }
+
+        System.out.println(suund);
+
         
-
-
-
-
-
 
 
     }
