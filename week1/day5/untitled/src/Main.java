@@ -51,9 +51,15 @@ public class Main {
         int rongiNr = 50;
         String suund = null;
         switch (rongiNr) {
-            case 50: suund = "Pärnu";  break;
-            case 55: suund = "Haapsalu"; break;
-            case 10: suund = "Vormsi"; break;
+            case 50:
+                suund = "Pärnu";
+                break;
+            case 55:
+                suund = "Haapsalu";
+                break;
+            case 10:
+                suund = "Vormsi";
+                break;
         }
 
         System.out.println(suund);
@@ -73,10 +79,10 @@ public class Main {
         // 50 => 2
 
         int punkte = 49;
-        if (punkte > 100 || punkte <0) {
+        if (punkte > 100 || punkte < 0) {
             throw new Error();
         }
-        switch ( punkte / 20) {
+        switch (punkte / 20) {
             case 5:
                 System.out.println("suurepärane");
                 break;
@@ -90,7 +96,6 @@ public class Main {
             default:
                 System.out.println("Kukkusid läbi");
         }
-
 
 
     }
