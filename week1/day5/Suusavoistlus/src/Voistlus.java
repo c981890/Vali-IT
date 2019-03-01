@@ -17,10 +17,18 @@ public class Voistlus{
     public void aeg () {
         for (Suusataja member : this.voistlejad) {
             member.suusata();
+            boolean lopetanud = member.kasOnLopetanud(this.koguDistants);
+            if (lopetanud) {
+                System.out.println("Võitja on: " + member);
+                return;
+            }
         }
         System.out.println(voistlejad);
+
+
+
         try {
-            Thread.sleep(100);
+            Thread.sleep(10);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

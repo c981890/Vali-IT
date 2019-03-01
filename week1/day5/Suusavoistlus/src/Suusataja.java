@@ -17,6 +17,14 @@ public class Suusataja {
 
     public String toString() {
         int dist = (int)(this.labitudDistants *1000);
+        String nool = this.stardinumber + ": ";
+        for (int i = 0; i <  dist; i++) {
+            nool += "=";
+        }
         return "Võistleja: " + this.stardinumber +" (läbitud distants: " + dist + ")";
+    }
+
+    public boolean kasOnLopetanud(int koguDistants) {
+        return this.labitudDistants >= koguDistants;
     }
 }

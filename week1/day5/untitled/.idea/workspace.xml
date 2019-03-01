@@ -3,10 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="67fe6c43-dcc4-4d56-b0ae-f8cda03fbd47" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../../day3/Loomariik/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../day3/Loomariik/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kordamine/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Kordamine/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kordamine/out/production/Kordamine/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Kordamine/out/production/Kordamine/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kordamine/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Kordamine/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Suusavoistlus/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Suusavoistlus/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Suusavoistlus/out/production/Suusavoistlus/Suusataja.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Suusavoistlus/out/production/Suusavoistlus/Suusataja.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Suusavoistlus/out/production/Suusavoistlus/Voistlus.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Suusavoistlus/out/production/Suusavoistlus/Voistlus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Suusavoistlus/src/Suusataja.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Suusavoistlus/src/Suusataja.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Suusavoistlus/src/Voistlus.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Suusavoistlus/src/Voistlus.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
