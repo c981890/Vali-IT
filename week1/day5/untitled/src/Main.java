@@ -64,6 +64,34 @@ public class Main {
             System.out.println(member);
         }
 
+        // Õpilane saab 0-100
+        // kui punkte alla 50, kukub ta läbi
+        // vastasel juhul on hinne täisarvuline punktid/20
+        // 100 => 5
+        // 80 => 4
+        // 67 => 3
+        // 50 => 2
+
+        int punkte = 49;
+        if (punkte > 100 || punkte <0) {
+            throw new Error();
+        }
+        switch ( punkte / 20) {
+            case 5:
+                System.out.println("suurepärane");
+                break;
+            case 4:
+                System.out.println("hea");
+                break;
+            case 3:
+                System.out.println("rahuldav");
+            case 2:
+                System.out.println("ee... õppisid ka?");
+            default:
+                System.out.println("Kukkusid läbi");
+        }
+
+
 
     }
 }
