@@ -4,6 +4,7 @@ public class Suusataja {
     private int stardinumber;
     private double kiirus;
     private double labitudDistants;
+    double dopinguKordaja;
 
     public Suusataja (int i) {
         this.stardinumber = i;
