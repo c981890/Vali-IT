@@ -111,16 +111,16 @@ public class Main {
         // double nr = Math.random() * 2
 
         ArrayList nimekiri543 = new ArrayList();
-        for (int i = 0; i < 23; i++) {
+        for (int i = 0; i < 543; i++) {
             int nr = (int) Math.floor(Math.random() * 11);
             nimekiri543.add(nr);
         }
 
         for (int i = 0; i < nimekiri543.size(); i++) {
             int nr = (int) nimekiri543.get(i) * 5;
-            nimekiri543.add(i, nr);
+            nimekiri543.set(i, nr);
         }
-        System.out.println(nimekiri543);
+        System.out.println("nimekiri: " + nimekiri543);
 
 
 
