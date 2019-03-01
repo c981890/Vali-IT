@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3993a274-8361-4097-8e0e-d5bba20842de" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../day5/untitled/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../day5/untitled/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day5/untitled/out/production/Andmetyybid3/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../day5/untitled/out/production/Andmetyybid3/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day5/untitled/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../day5/untitled/src/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -102,8 +101,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="85" />
-    <option name="y" value="25" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
     <option name="width" value="1750" />
     <option name="height" value="980" />
   </component>
