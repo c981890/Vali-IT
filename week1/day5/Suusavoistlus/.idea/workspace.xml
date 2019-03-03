@@ -4,6 +4,9 @@
     <list default="true" id="5af49384-f1c0-4729-b30f-10c4fa68690e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Suusavoistlus/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Suusavoistlus/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Suusavoistlus/Suusataja.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Suusavoistlus/Suusataja.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Suusavoistlus/Voistlus.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Suusavoistlus/Voistlus.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Suusataja.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Suusataja.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Voistlus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Voistlus.java" afterDir="false" />
@@ -99,7 +102,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551606875981" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551607665679" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
