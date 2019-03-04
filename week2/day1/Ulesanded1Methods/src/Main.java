@@ -30,6 +30,30 @@ public class Main {
         System.out.println("has22 vastus: " + has22(sums4));
     }
 
+    // Given an array of ints, return true if it contains no 1's or it contains no 4's.
+    public boolean no14(int[] nums) {
+        int loendur1 = 0;
+        int loendur4 = 0;
+        if (nums.length > 0) {
+
+            for (int member : nums) {
+                if (member == 1) {
+                    loendur1++;
+                } else if (member == 4) {
+                    loendur4++;
+                }
+            }
+        }
+        if ((loendur1 > 0 && loendur4 == 0) || (loendur1 == 0 && loendur4 > 0)) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+
+
+
     // Given an array of ints, return true if every element is a 1 or a 4.
     public boolean only14(int[] nums) {
         int loendur = 0;
@@ -40,7 +64,7 @@ public class Main {
         }
         if (loendur > 0) {
             return false;
-        } else if (loendur == 0){
+        } else {
             return true;
         }
     }
