@@ -25,6 +25,9 @@ public class Main {
 
         int[] sums3 = new int[]{1, 2, 2, 6, 99, 99, 7};
         System.out.println("sum67 vastus: " + sum67(sums3));
+
+        int[] sums4 = new int[]{1, 2, 2};
+        System.out.println("has22 vastus: " + has22(sums4));
     }
 
     /*
@@ -36,7 +39,7 @@ public class Main {
         for (int i = 0; i < nums.length; i++) {
             if (nums[i] < 13) {
                 summa += nums[i];
-            } else if (nums[i] == 13){
+            } else if (nums[i] == 13) {
                 i++;
             }
         }
@@ -68,6 +71,25 @@ public class Main {
 
         return summa;
     }
+
+    // Given an array of ints, return true if the array contains a 2 next to a 2 somewhere.
+    public static boolean has22(int[] nums) {
+        boolean vastus = false;
+        if (nums.length > 1) {
+            for (int i = 0; i < nums.length - 1; i++) {
+                if (nums[i] == 2 && nums[i + 1] == 2) {
+                    vastus = true;
+                    break;
+                } else {
+                    vastus = false;
+                }
+
+            }
+
+        }
+        return vastus;
+    }
+
 }
 
 
