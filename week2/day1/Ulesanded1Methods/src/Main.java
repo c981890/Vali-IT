@@ -30,6 +30,22 @@ public class Main {
         System.out.println("has22 vastus: " + has22(sums4));
     }
 
+    // Given an array of ints, return true if the sum of all the 2's in the array is exactly 8.
+    public boolean sum28(int[] nums) {
+        int sumOf2s = 0;
+        for (int member : nums) {
+            if (member == 2) {
+                sumOf2s += member;
+            }
+        }
+        if (sumOf2s == 8) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+
     // Given an array of ints, return true if the array contains no 1's and no 3's.
     public boolean lucky13(int[] nums) {
         int nr1Loendur = 0;
