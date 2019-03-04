@@ -5,6 +5,7 @@ public class Suusataja {
     private double kiirus;
     private double labitudDistants;
     private double dopinguKordaja;
+    private double dopinguKordajaPiir;
 
     public Suusataja (int i) {
         this.stardinumber = i;
@@ -12,11 +13,12 @@ public class Suusataja {
         // this.kiirus = Math.random() * 20;
         this.labitudDistants = 0;
         this.dopinguKordaja = Math.random();
+        this.dopinguKordajaPiir = 0.5;
     }
 
     public void suusata() {
 
-        if (this.dopinguKordaja < 0.5) {
+        if (this.dopinguKordaja < this.dopinguKordajaPiir) {
             this.labitudDistants += this.kiirus/3600;
         } else {
             this.labitudDistants += (this.kiirus/3600) * 1.15;
@@ -42,7 +44,7 @@ public class Suusataja {
     }
 
     public String getDopinguKordaja() {
-        if (this.dopinguKordaja < 0.5) {
+        if (this.dopinguKordaja < dopinguKordajaPiir) {
             return "dopingukontroll oli negatiivne.";
         }
         return "dopingukontrollis oli A proov positiivne.";

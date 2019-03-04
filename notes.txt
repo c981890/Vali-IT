@@ -1,4 +1,4 @@
-Õppejõud Krister Viirsaar
+﻿Õppejõud Krister Viirsaar
 Veebileht krister.ee 
 http://code.krister.ee/my-coding-environment/
 arvuti kasuatajanimi/parool opilane/Parool11
@@ -42,6 +42,9 @@ psvm + Tab teeb public static void main (String[] args)
 Masssiiv stringiks
 String massiivStr = Arrays.toString(massiiv);
 System.out.println(massiivStr);
+
+F5 -> 09:19 04.03.2019
+Koht 4
 
 
 
