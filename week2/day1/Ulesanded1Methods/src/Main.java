@@ -30,6 +30,22 @@ public class Main {
         System.out.println("has22 vastus: " + has22(sums4));
     }
 
+    // Given an array of ints, return true if every element is a 1 or a 4.
+    public boolean only14(int[] nums) {
+        int loendur = 0;
+        for (int member : nums) {
+            if (member != 1 && member != 4) {
+                loendur++;
+            }
+        }
+        if (loendur > 0) {
+            return false;
+        } else if (loendur == 0){
+            return true;
+        }
+    }
+
+
     /*
     This is slightly more difficult version of the famous FizzBuzz problem which is sometimes given as a first
     problem for job interviews. (See also: FizzBuzz Code.) Consider the series of numbers beginning at start and
@@ -40,7 +56,6 @@ public class Main {
     than the usual version since you have to allocate and index into an array instead of just printing, and we vary
     the start/end instead of just always doing 1..100.
      */
-
     public String[] fizzBuzz(int start, int end) {
         int massiiviSuurus = end - start;
         String[] massiiv = new String[massiiviSuurus];
