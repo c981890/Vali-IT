@@ -30,6 +30,27 @@ public class Main {
         System.out.println("has22 vastus: " + has22(sums4));
     }
 
+    // Given an array of ints, return true if the array contains no 1's and no 3's.
+    public boolean lucky13(int[] nums) {
+        int nr1Loendur = 0;
+        int nr3Loendur = 0;
+        for (int member : nums) {
+            if (member == 1) {
+                nr1Loendur++;
+            } else if(member == 3) {
+                nr3Loendur++;
+            }
+        }
+        if (nr1Loendur == 0 && nr3Loendur == 0) {
+            return true;
+        } else {
+            return false;
+        }
+
+    }
+
+
+
     /*
     Return the sum of the numbers in the array, returning 0 for an empty array. Except the number 13 is very unlucky,
     so it does not count and numbers that come immediately after a 13 also do not count.
