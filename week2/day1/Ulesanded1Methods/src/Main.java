@@ -30,6 +30,25 @@ public class Main {
         System.out.println("has22 vastus: " + has22(sums4));
     }
 
+    // Given an array of ints, return true if the number of 1's is greater than the number of 4's.
+    public boolean more14(int[] nums) {
+        int nrOf1 = 0;
+        int nrOf4 = 0;
+        for (int member : nums) {
+            if (member == 1) {
+                nrOf1++;
+            } else if(member == 4) {
+                nrOf4++;
+            }
+        }
+        if (nrOf1 > nrOf4) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+
     // Given an array of ints, return true if the sum of all the 2's in the array is exactly 8.
     public boolean sum28(int[] nums) {
         int sumOf2s = 0;
