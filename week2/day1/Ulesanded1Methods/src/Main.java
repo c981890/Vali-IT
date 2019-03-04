@@ -31,6 +31,71 @@ public class Main {
     }
 
     /*
+    This is slightly more difficult version of the famous FizzBuzz problem which is sometimes given as a first
+    problem for job interviews. (See also: FizzBuzz Code.) Consider the series of numbers beginning at start and
+    running up to but not including end, so for example start=1 and end=5 gives the series 1, 2, 3, 4. Return a
+    new String[] array containing the string form of these numbers, except for multiples of 3, use "Fizz" instead
+    of the number, for multiples of 5 use "Buzz", and for multiples of both 3 and 5 use "FizzBuzz". In Java,
+    String.valueOf(xxx) will make the String form of an int or other type. This version is a little more complicated
+    than the usual version since you have to allocate and index into an array instead of just printing, and we vary
+    the start/end instead of just always doing 1..100.
+     */
+
+    public String[] fizzBuzz(int start, int end) {
+        int massiiviSuurus = end - start;
+        String[] massiiv = new String[massiiviSuurus];
+        int algus = start;
+        for (int i = 0; i < massiiv.length; i++) {
+            if (algus % 3 == 0 && algus % 5 != 0) {
+                massiiv[i] = "Fizz";
+                algus++;
+            } else if (algus % 3 != 0 && algus % 5 == 0) {
+                massiiv[i] = "Buzz";
+                algus++;
+            } else if (algus % 3 == 0 && algus % 5 == 0) {
+                massiiv[i] = "FizzBuzz";
+                algus++;
+            } else {
+                massiiv[i] = Integer.toString(algus);
+                algus++;
+            }
+        }
+        return massiiv;
+    }
+
+    /*
+    Given start and end numbers, return a new array containing the sequence of integers from start up to but not
+    including end, so start=5 and end=10 yields {5, 6, 7, 8, 9}. The end number will be greater or equal to the
+    start number. Note that a length-0 array is valid. (See also: FizzBuzz Code)
+     */
+    public int[] fizzArray3(int start, int end) {
+        int massiiviSuurus = end - start;
+        int[] massiiv = new int[massiiviSuurus];
+        for (int i = 0; i < massiiv.length; i++) {
+            massiiv[i] = start;
+            start++;
+        }
+        return massiiv;
+    }
+
+
+    /*
+    Given a number n, create and return a new string array of length n, containing the strings "0", "1" "2" ..
+    through n-1. N may be 0, in which case just return a length 0 array. Note: String.valueOf(xxx) will make the
+    String form of most types. The syntax to make a new string array is: new String[desired_length].
+    (See also: FizzBuzz Code)
+     */
+    public String[] fizzArray2(int n) {
+        String[] massiiv = new String[n];
+
+        for (int i = 0; i < massiiv.length; i++) {
+            massiiv[i] = Integer.toString(i);
+        }
+        return massiiv;
+    }
+
+
+    /*
     Given a number n, create and return a new int array of length n, containing the numbers 0, 1, 2, ... n-1.
     The given n may be 0, in which case just return a length 0 array. You do not need a separate if-statement
     for the length-0 case; the for-loop should naturally execute 0 times in that case, so it just works. The
