@@ -34,24 +34,21 @@ public class Main {
     public boolean no14(int[] nums) {
         int loendur1 = 0;
         int loendur4 = 0;
-        if (nums.length > 0) {
-
-            for (int member : nums) {
-                if (member == 1) {
-                    loendur1++;
-                } else if (member == 4) {
-                    loendur4++;
-                }
+        boolean toevaartus = false;
+        if (nums.length == 0) {
+            toevaartus = false;
+        }
+        for (int member : nums) {
+            if (member == 1) {
+                loendur1++;
+            } else if (member == 4) {
+                loendur4++;
             }
         }
-        if ((loendur1 > 0 && loendur4 == 0) || (loendur1 == 0 && loendur4 > 0)) {
-            return true;
-        } else {
-            return false;
-        }
+        
+
+        return true;
     }
-
-
 
 
     // Given an array of ints, return true if every element is a 1 or a 4.
@@ -158,7 +155,7 @@ public class Main {
         for (int member : nums) {
             if (member == 1) {
                 nrOf1++;
-            } else if(member == 4) {
+            } else if (member == 4) {
                 nrOf4++;
             }
         }
@@ -193,7 +190,7 @@ public class Main {
         for (int member : nums) {
             if (member == 1) {
                 nr1Loendur++;
-            } else if(member == 3) {
+            } else if (member == 3) {
                 nr3Loendur++;
             }
         }
@@ -204,7 +201,6 @@ public class Main {
         }
 
     }
-
 
 
     /*
