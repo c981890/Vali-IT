@@ -46,6 +46,8 @@ System.out.println(massiivStr);
 F5 -> 09:19 04.03.2019
 Koht 4
 
+int[] massiiv = new [n];
+
 
 
 

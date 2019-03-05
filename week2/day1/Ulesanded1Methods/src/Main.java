@@ -36,7 +36,7 @@ public class Main {
         int loendur4 = 0;
         boolean toevaartus = false;
         if (nums.length == 0) {
-            toevaartus = false;
+            toevaartus = true;
         }
         for (int member : nums) {
             if (member == 1) {
@@ -45,9 +45,15 @@ public class Main {
                 loendur4++;
             }
         }
-        
+        if (loendur1 > 0 && loendur4 == 0) {
+            toevaartus = true;
+        } else if (loendur1 == 0 && loendur4 > 0) {
+            toevaartus = true;
+        } else if (loendur1 == 0 && loendur4 == 0) {
+            toevaartus = true;
+        }
 
-        return true;
+        return toevaartus;
     }
 
 
