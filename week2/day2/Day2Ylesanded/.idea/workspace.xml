@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9d946e4-6ea7-497e-9ecc-2225ad4bc36f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../chat/src/main/java/ee/valiit/chat/APIController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat/src/main/java/ee/valiit/chat/APIController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat/src/main/java/ee/valiit/chat/ChatMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat/src/main/java/ee/valiit/chat/ChatMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat/src/main/java/ee/valiit/chat/ChatRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat/src/main/java/ee/valiit/chat/ChatRoom.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../chat/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../chat/src/main/resources/static/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../chat/src/main/resources/static/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../chat/src/main/resources/static/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chat/src/main/resources/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../chat/src/main/resources/static/style.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />

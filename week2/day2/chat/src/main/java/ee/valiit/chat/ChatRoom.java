@@ -8,7 +8,7 @@ public class ChatRoom {
 
     public ChatRoom(String room) {
         this.room = room;
-        this.messages.add(new ChatMessage("bot", "kontrollsõnum"));
+        this.messages.add(new ChatMessage("bot", "kontrollsõnum", "URL"));
     }
 
     public void addMessage(ChatMessage msg) {

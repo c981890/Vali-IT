@@ -4,18 +4,39 @@ import com.fasterxml.jackson.annotation.JsonFormat;
 import java.util.*;
 
 public class ChatMessage {
-    public String message;
-    public String user;
+    private String message;
+    private String user;
     @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd HH:mm")
-    public Date date;
+    private Date date;
+    private String url;
 
-    public ChatMessage(String user, String message) {
+    public ChatMessage() {
+
+    }
+
+    public ChatMessage(String user, String message, String url) {
         this.user = user;
         this.message = message;
+        this.url = url;
         this.date = new Date();
 
     }
 
 
+    public String getUser() {
+        return user;
+    }
 
+    public String getMessage() {
+        return message;
+    }
+
+    public Date getDate() {
+        return date;
+    }
+
+
+    public String getUrl() {
+        return "<img src=\""+ url +"\" width='50' height=\"60\">";
+    }
 }
