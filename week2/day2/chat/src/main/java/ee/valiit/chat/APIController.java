@@ -1,14 +1,22 @@
 package ee.valiit.chat;
 
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @CrossOrigin
 public class APIController {
+    ChatRoom general = new ChatRoom("general");
+
     @GetMapping("/chat/general")
-    String chatRoom (){
-        return "Päring on edukas.";
+    ChatRoom chat (){
+        return general;
     }
+
+    @PostMapping("/chat/general/new-message")
+    void NewMessage(@RequestBody ChatMessage msg) {
+        this.general.addMessage(msg);
+
+    }
+
+
 }
