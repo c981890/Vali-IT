@@ -48,6 +48,8 @@ Koht 4
 
 int[] massiiv = new [n];
 
+Ctrl+z - meile andestatkse meie vead kui me seda küsime
+
 
 
 

@@ -1,0 +1,23 @@
+body{background-color:rgb(149,200,216);
+	font-family: Arvo;
+	font-size: 16px;
+	color: black;
+}
+
+form {
+	border: 5px rgba(114,133,165,0.3);
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px 5px rgba(76,81,109,0.3);
+}
+
+form input {
+	display: block;
+}
+
+.kastiga { /* ühendan tagasi indexisse öeldes, et sinna lükkan ümber kastid (klass)  */
+	border: 2px solid blue;
+	background-color:white;
+	font-family: Dosis;
+	font-size: 16px;
+	color: black;
+}
