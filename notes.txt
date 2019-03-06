@@ -50,9 +50,43 @@ int[] massiiv = new [n];
 
 Ctrl+z - meile andestatakse meie vead kui me seda küsime
 
+https://pastebin.com/
 
+https://www.w3schools.com/sql
 
+SELECT ContactName, City, Country FROM Customers 
+WHERE City='London' AND ContactName LIKE '%homas%'
+ORDER BY ContactName
+;
 
+INSERT INTO Categories VALUES (9, "Vegan Stuff", "All things good");
+SELECT * FROM Categories;
+DELETE FROM Categories WHERE CategoryID = 9;
+SELECT * FROM Categories;
+
+UPDATE Categories SET Description == "Kõuka-Kõula" WHERE CategoryName LIKE '%s';
+SELECT * FROM Categories;
+
+SELECT AVG(Price) AS keskmine_hind FROM Products;
+
+SELECT * FROM Customers
+INNER JOIN Orders ON Customers.CustomerID = Orders.CustomerID
+WHERE Customers.CustomerID = 7;
+
+SELECT Customers.ContactName, Orders.* FROM Customers
+INNER JOIN Orders ON Customers.CustomerID = Orders.CustomerID
+WHERE Customers.CustomerID = 7;
+
+Mis toodet mis klient mitu korda on tellinud
+4 tulma
+kliendi nimi (Customers.CustomerName) riik (Customers.Country)  
+toote nimetus (Products.ProductName või OrderID)
+ja mitu korda (Orders.OrderID-i abil leida )
+
+SELECT Customers.CustomerName, Customers.Country, Products.ProductName, OrderDetails.Quantity FROM Customers
+JOIN Orders ON Customers.CustomerID=Orders.CustomerID
+JOIN OrderDetails ON Orders.OrderID=OrderDetails.OrderID
+JOIN Products ON Products.ProductID=OrderDetails.ProductID
 
 
 
