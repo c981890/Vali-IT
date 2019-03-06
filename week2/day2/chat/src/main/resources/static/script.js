@@ -4,7 +4,8 @@ console.log("Töötan")
 
 var refreshMessages = async function () {
 	console.log("refreshMessages läks käima")
-	var APIurl = "http://localhost:8080/chat/general/"
+	var tuba = document.querySelector("#room").value
+	var APIurl = "http://localhost:8080/chat/" + tuba
 	var request = await fetch(APIurl)
 	console.log(request)
 	var json = await request.json()
@@ -24,7 +25,7 @@ var refreshMessages = async function () {
 
 	// document.querySelector('#jutt').innerHTML = JSON.stringify(json)	
 
-setInterval(refreshMessages, 1000)
+setInterval(refreshMessages, 10000)
 
 document.querySelector('form').onsubmit = function(event) {
 	event.preventDefault()
@@ -33,8 +34,9 @@ document.querySelector('form').onsubmit = function(event) {
 	var url = document.querySelector('#profiiliPildiURL').value
 	document.querySelector('#message').value = "" // tee input tühjaks
 	console.log(username, message)
-    
-    var APIurl = "http://localhost:8080/chat/general/new-message"
+
+    var tuba = document.querySelector("#room").value
+    var APIurl = "http://localhost:8080/chat/" + tuba + "/new-message"
 	fetch(APIurl, {
 		method: "POST",
 		body: JSON.stringify({user: username, message: message, url: url}),
