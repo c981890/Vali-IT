@@ -88,6 +88,12 @@ JOIN Orders ON Customers.CustomerID=Orders.CustomerID
 JOIN OrderDetails ON Orders.OrderID=OrderDetails.OrderID
 JOIN Products ON Products.ProductID=OrderDetails.ProductID
 
+user: postgres
+pass: postgres
+database: postgres
+5432
+
+https://testlio.com/
 
 
 
