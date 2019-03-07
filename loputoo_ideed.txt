@@ -13,6 +13,14 @@ Ideed:
        - Saad raamatuid lisada
        - Saad teha soovinimekirja raamatutest
        - Saad raamatule lisada kokkuvõtte ja pildi
+    - Raamatulaenutuse träkker 
+        - Saab soovi korral eelmisega ühildada, aga võib olla ka ainult 
+            laenutuses/ laenutatud raamatute nimekiri
+        - Raamatu omanik saab iga kord raamatut laenutades panna kirja:
+            - mis raamat, kellele ja millal laenutati
+        - Saab märkida raamatu tagastatuks
+        - Saab kontrollida, kas raamat on laenutatud või olemas
+        - Lisavõimalus: saab välja võtta statistikat, mis raamatud on kõige popimad
     - Märkmeraamat
         - Lisa märkmeid
         - Näe vasakul/paremal ribal
@@ -34,3 +42,7 @@ Ideed:
         - Sisestad ettevõtte, kuupäeva, kontaktid, CV versiooni jne.
         - Jooksvalt täidad staatust - saadetud, vastatud, proovitöö jne.
         - Koondis saad vaadata kokkuvõtet ja filtreerida.
+    - Isikukoodi tõlkija
+        - Saab sisestada isikukoodi
+        - Programm väljastab komponentide põhjal kogu võimaliku info 
+            (sünniaasta, sünnipäev, sünnikoht, kontrollnumber?)
