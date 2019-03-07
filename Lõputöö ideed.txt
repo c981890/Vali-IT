@@ -1,0 +1,36 @@
+Siit saad vabal valikul kasutada ideid oma projekti tegemiseks.
+
+Ideed:
+    - Kaalujälgija
+        - Erinevad inimesed saavad oma kaalu sisestada
+        - Saad väljavõtte teha oma kaalu ajaloo kohta
+        - Saad näha oma kaalu muutust graafikul
+    - Kalkulaator
+        - Liita, lahutada, korrutada, jagada
+        - Tulemuste nägemine
+        - Tehete ajalugu baasis
+    - Raamatute baas
+       - Saad raamatuid lisada
+       - Saad teha soovinimekirja raamatutest
+       - Saad raamatule lisada kokkuvõtte ja pildi
+    - Märkmeraamat
+        - Lisa märkmeid
+        - Näe vasakul/paremal ribal
+        - Hoia märkemid baasis
+    - Meemide generaator
+        - Lase valida kümne meemi vahel
+        - Kasutaja saab lisada teksti
+        - Moodustatud meemid hoitakse baasis
+    - KKK mootor
+        - Kasutaja saab luua küsimuse
+        - Kasutaja saab vastata
+        - Kasutaja saab valida parima vastuse
+        - Nt. Vali IT küsimused
+            - Kas klassiarvuti võib kaasa võtta koolituse ajal?
+            - Kus lõunat süüa? - link Restoranivalija lehele.
+    - Programmeerimise sõnaraamat (et- en - mida see tegelt tähendab)
+        - Saab soovi korral eelmise (KKK) teemaga ühildada
+    - Praktika/tööotsimise liides
+        - Sisestad ettevõtte, kuupäeva, kontaktid, CV versiooni jne.
+        - Jooksvalt täidad staatust - saadetud, vastatud, proovitöö jne.
+        - Koondis saad vaadata kokkuvõtet ja filtreerida.
