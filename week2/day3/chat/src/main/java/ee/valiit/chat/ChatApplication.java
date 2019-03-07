@@ -20,6 +20,9 @@ public class ChatApplication implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
         jdbcTemplate.execute("DROP TABLE IF EXISTS messages");
-        jdbcTemplate.execute("CREATE TABLE messages (id INTEGER PRIMARY KEY,username TEXT, message TEXT, room TEXT)");
+        jdbcTemplate.execute("CREATE TABLE messages (id INTEGER PRIMARY KEY," +
+                                                        "username TEXT, " +
+                                                        "message TEXT, " +
+                                                        "room TEXT)");
     }
 }

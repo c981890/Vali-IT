@@ -2,7 +2,7 @@ package ee.valiit.chat;
 
 public class ChatMessage {
     private int id;
-    private String userName;
+    private String username;
     private String room;
     private String message;
 
@@ -11,12 +11,17 @@ public class ChatMessage {
 
     }
 
+    public ChatMessage(String username, String message) {
+        this.username = username;
+        this.message = message;
+    }
+
     public int getId() {
         return id;
     }
 
     public String getUserName() {
-        return userName;
+        return username;
     }
 
     public String getRoom() {

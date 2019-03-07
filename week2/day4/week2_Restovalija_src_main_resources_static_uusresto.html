@@ -1,0 +1,41 @@
+<head>
+	<title>Restoranivalija</title>
+	
+	<meta charset="utf-8"> 
+</head>
+
+<body>
+	<div class="center-div">
+	<link rel="stylesheet" type="text/css" href="uusresto_style.css">
+	<h1>Lisa uus restoran</h1>
+	<form action="http://localhost:8080/index.html">
+  	Restorani nimi:<br>
+  	<input id="nimi" class="form-text" type="text" placeholder ="Mis restorani nimi on?" required><br><br>
+  	Kaugus koolituskohast:<br>
+	<input id="kaugusMinutites" class="form-text" type="number" placeholder="Mitu minutit sinna kõnnib?" required><br><br>
+	Köögi stiil:<br><div id="toidutyyp">
+	<input type="radio" name="toidutyyp" value="aasiapärane"  class="form-radio" checked><label>Aasiapärane</label>
+	<input type="radio" name="toidutyyp" value="itaaliapärane" class="form-radio"><label>Itaaliapärane</label>
+	<br><input type="radio" name="toidutyyp" value="kiirtoit"  class="form-radio"><label>Kiirtoit</label>
+	<input type="radio" name="toidutyyp" value="soust"  class="form-radio"><label>Soust ja kartul</label>
+	</div>
+  	<br><br>
+  	Hinnang toidule:<br>
+  	<input id="hinnangToit" class="form-text" type="number" placeholder="Hinnang kümnepallisüsteemis" required min="1" max="10"><br><br>
+  	Koduleht:<br>
+  	<input id="koduleht" class="form-text" type="text" placeholder="Kodulehe aadress" required><br><br>
+	Aadress:<br>
+	<input id="aadress" class="form-text" type="text" placeholder="Restorani aadress" required><br><br>
+  	Ooteaeg:<br>
+  	<input id="ooteaeg" class="form-text" type="number" placeholder="Mitu minutit ootama pidid?" required><br>
+
+	<br>
+	<a href="index.html" class="ilusnupp">Tagasi</a>
+		
+			<input  id="button" value="Sisesta" type="submit" >
+		</form>
+	</form>
+	</div>
+	<script src="uusresto_script.js">
+	</script>
+</body>
