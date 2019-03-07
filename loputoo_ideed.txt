@@ -46,3 +46,13 @@ Ideed:
         - Saab sisestada isikukoodi
         - Programm väljastab komponentide põhjal kogu võimaliku info 
             (sünniaasta, sünnipäev, sünnikoht, kontrollnumber?)
+    - Tsitaadikogumik
+        - Kõik kursusel olijad saavad sisestada kellegi poolt öeldud ägedaid tsitaate
+            (a'la "Ma ainult hard refreshi teengi")
+        - Nupp "Teambuilding" genereerib randomiga ühe tsitaatidest
+        - Kui on piinlik vaikus või tahaks meeleolu tõsta, saad endale 
+            ühe tsitaadi genereerida
+    - Kuldvillaku mäng
+        - Mängulaud, kus on valik erinevaid teemasid
+        - Iga teema all erineva n-ö väärtuse ehk raskusastmega küsimused
+        - Kui oled telemängu näinud, saab teha lihtsamaid ja raskemaid versioone
