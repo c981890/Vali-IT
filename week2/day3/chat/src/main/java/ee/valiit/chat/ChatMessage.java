@@ -5,23 +5,25 @@ public class ChatMessage {
     private String username;
     private String room;
     private String message;
+    private String url;
 
 
     public ChatMessage() {
 
     }
 
-    public ChatMessage(String username, String message) {
+    public ChatMessage(String username, String message, String url) {
         this.username = username;
         this.message = message;
+        this.url = url;
     }
 
     public int getId() {
         return id;
     }
 
-    public String getUserName() {
-        return username;
+    public String getUsername() {
+        return Security.xssFix(username);
     }
 
     public String getRoom() {
@@ -29,7 +31,12 @@ public class ChatMessage {
     }
 
     public String getMessage() {
-        return message;
+
+        return Security.xssFix(message);
+    }
+
+    public String getURL() {
+        return Security.xssFix(url);
     }
 }
 
