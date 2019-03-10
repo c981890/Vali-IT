@@ -1,0 +1,14 @@
+CREATE TABLE earthquakes_db (earthquake_id TEXT,
+							 occurred_on TEXT,
+							 latitude TEXT,
+							 longitude TEXT,
+							 depth TEXT,
+							 magnitude TEXT,
+							 calculation_method TEXT,
+							 network_id TEXT,
+							 place TEXT,
+							 cause TEXT);
+COPY earthquakes_db FROM 'C:\Users\opilane\Desktop\projektid\week2\day7\earthquake.csv'
+HEADER
+CSV
+QUOTE '"';
