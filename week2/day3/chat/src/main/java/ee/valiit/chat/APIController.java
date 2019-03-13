@@ -14,6 +14,8 @@ public class APIController {
     @Autowired
     JdbcTemplate jdbcTemplate;
 
+
+    // ROUTE
     @GetMapping("/chat/{room}")
         // SELECT * FROM message
     ArrayList<ChatMessage> chat(@PathVariable String room) {
@@ -33,6 +35,7 @@ public class APIController {
         }
     }
 
+    //route sulgudes olev tähtis, et kuskohast info tuleb
     @PostMapping("/chat/{room}/new-message")
     void NewMessage(@RequestBody ChatMessage msg, @PathVariable String room) {
 

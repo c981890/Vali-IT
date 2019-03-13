@@ -2,7 +2,7 @@ console.log("Töötan")
 
 // 1. alla laadida API'st tekst
 
-var refreshMessages = async function () {
+var refreshMessages = async function() {
 	console.log("refreshMessages läks käima")
 	var tuba = document.querySelector("#room").value
 	var APIurl = "http://localhost:8080/chat/" + tuba
