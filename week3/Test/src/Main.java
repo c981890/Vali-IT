@@ -48,7 +48,7 @@ public class Main {
 
     }
 
-    private static int ylesanne4(int aastaarv) {
+    private static byte ylesanne4(int aastaarv) {
         byte century = 0;
         if (aastaarv < 1 || aastaarv > 2018) {
             century = -1;
