@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8cfb3b78-e680-4dff-b778-66926d492d77" name="Default Changelist" comment="" />
+    <list default="true" id="8cfb3b78-e680-4dff-b778-66926d492d77" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../kasutajatelist/src/main/java/ee/valiit/kasutajatelist/APIController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../kasutajatelist/src/main/java/ee/valiit/kasutajatelist/APIController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kasutajatelist/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../kasutajatelist/src/main/resources/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kasutajatelist/src/main/resources/static/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../kasutajatelist/src/main/resources/static/index.js" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
