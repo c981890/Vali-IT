@@ -1,0 +1,35 @@
+https://www.lumav.ee/
+Margus Ots
+Äriarendusjuht
+Lumav backend praktika
+Testija töökuulutus üleval, tuleb avalusel mainida, et 08.04 saab alustada.
+https://www.cv.ee/toopakkumine/lumav-commerce-ou/tarkvara-testija-f3847916.html
+
+Konkurentideks peavad
+https://www.vaimo.com/project/kaubamaja/
+https://www.ambientia.ee/
+Eeliseks on see, õpetavad ise välja.
+Kuskil kaks aastat on see aeg, kui inimene hakkab neile "kasumit" tooma.
+
+Magento sertifikaat
+https://u.magento.com/certification
+
+Tööprotsess
+Kliendi pöördumised tulevad helpdeski
+edasi liiguvad front-endi, sest see on odavam
+edsi jõuab back-endi meeskonda
+
+Arenduse tööprotsess
+devel(development) keskkond - kohalik server
+staging
+pre-live - klendi serveri koopia
+live - kliendi server
+
+Mis põhjus otsida elkdata partnerid?
+https://www.google.com/search?q=elkdata+partnerid&spell=1&sa=X&ved=0ahUKEwiDovOZ04nhAhUNAhAIHbSwDtgQBQgoKAA&biw=1920&bih=986
+
+
+27.03.2019
+testivõimalus 17.30-19.30 - oma läpakas kaasa
+eeldused edukaks sooritamiseks !!!PHP oskus!!!, JavaScript, MySQL
+ 
