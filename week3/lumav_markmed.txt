@@ -8,7 +8,7 @@ https://www.cv.ee/toopakkumine/lumav-commerce-ou/tarkvara-testija-f3847916.html
 Konkurentideks peavad
 https://www.vaimo.com/project/kaubamaja/
 https://www.ambientia.ee/
-Eeliseks on see, õpetavad ise välja.
+Eeliseks on see, et õpetavad ise välja.
 Kuskil kaks aastat on see aeg, kui inimene hakkab neile "kasumit" tooma.
 
 Magento sertifikaat
@@ -17,7 +17,7 @@ https://u.magento.com/certification
 Tööprotsess
 Kliendi pöördumised tulevad helpdeski
 edasi liiguvad front-endi, sest see on odavam
-edsi jõuab back-endi meeskonda
+edasi jõuab back-endi meeskonda
 
 Arenduse tööprotsess
 devel(development) keskkond - kohalik server
