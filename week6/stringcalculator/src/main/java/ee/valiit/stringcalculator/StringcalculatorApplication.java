@@ -11,11 +11,11 @@ public class StringcalculatorApplication {
 	public static void main(String[] args) {
 
 		SpringApplication.run(StringcalculatorApplication.class, args);
-		String s = "//;\n1;2";
+		String s = "1, -2";
 		add(s);
 	}
 
-	public static int add(String s) {
+	public static int add(String s) throws IllegalArgumentException {
 		int tulemus = 0;
 		if (s.equals("")) {
 			return tulemus;
@@ -25,6 +25,9 @@ public class StringcalculatorApplication {
 		if (s.length() <= 3) {
 			String[] massiiv = s.split(",|\\n");
 			for (String element : massiiv) {
+				if (element.contains("-")) {
+					throw new IllegalArgumentException("negatives not allowed" + element);
+				}
 				tulemus += Integer.parseInt(element);
 			}
 			return tulemus;
@@ -33,6 +36,9 @@ public class StringcalculatorApplication {
 		if (s.length() > 3 && !(s.substring(0, 3).contains("//"))) {
 			String[] massiiv = s.split(",|\\n");
 			for (String element : massiiv) {
+				if (element.contains("-")) {
+					throw new IllegalArgumentException("negatives not allowed " + element);
+				}
 				tulemus += Integer.parseInt(element);
 			}
 		} else {
@@ -41,6 +47,9 @@ public class StringcalculatorApplication {
 			String splitter = regexigaMassiiv[0].substring(2, 3);
 			String[] massiiv = regexigaMassiiv[1].split(splitter);
 			for (String element : massiiv) {
+				if (element.contains("-")) {
+					throw new IllegalArgumentException("negatives not allowed" + element);
+				}
 				tulemus += Integer.parseInt(element);
 			}
 		}
