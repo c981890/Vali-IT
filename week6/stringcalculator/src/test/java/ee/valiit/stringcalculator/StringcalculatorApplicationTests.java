@@ -12,7 +12,34 @@ public class StringcalculatorApplicationTests {
 
 	@Test
 	public void testAddEmptyString() {
-		Assert.assertThat(StringcalculatorApplication.add(""), 0);
+		Assert.assertEquals("Oodati number 0", StringcalculatorApplication.add(""), 0);
+	}
+
+	@Test
+	public void testAddStringWithOne1() {
+		Assert.assertEquals(StringcalculatorApplication.add("1"), 1);
+	}
+
+	@Test
+	public void testAddStringWithOne9() {
+		Assert.assertEquals(StringcalculatorApplication.add("9"), 9);
+	}
+
+	@Test
+	public void testAddStringWithTwo12() {
+		Assert.assertEquals(StringcalculatorApplication.add("1,2"), 3);
+	}
+	@Test
+	public void testAddStringWithUnlimited1279() {
+		Assert.assertEquals(StringcalculatorApplication.add("1,2,7,9"), 19);
+	}
+	@Test
+	public void testAddStringWithUnlimited1279AndTwoRegex() {
+		Assert.assertEquals(StringcalculatorApplication.add("1\n2,7,9"), 19);
+	}
+	@Test
+	public void testAddStringWithUnlimited12AndUnknownRegex() {
+		Assert.assertEquals(StringcalculatorApplication.add("//;\n1;2"), 3);
 	}
 
 }
